@@ -3,6 +3,7 @@ import Link from "next/link";
 import AdvantagesSection from "./components/AdvantagesSection";
 import TestimonialsSection from "./components/TestimonialsSection";
 import OffresSection from "./components/OffresSection";
+import AutreServices from "./components/AutreServices";
 
 export default function Home() {
   return (
@@ -83,6 +84,9 @@ export default function Home() {
 
       {/* Testimonials Section */}
       <TestimonialsSection />
+
+      {/* Autre Services Section */}
+      <AutreServices />
     </>
   );
 }
