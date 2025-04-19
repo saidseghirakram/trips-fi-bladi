@@ -43,19 +43,19 @@ export default function OffresSection() {
   }, []);
 
   return (
-    <section className="py-20 bg-[#1a1a1a]">
+    <section className="py-40 bg-[#1a1a1a]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-medium text-[#F9F7BE] mb-4">
+          <h2 className=" text-5xl font-medium text-[#F9F7BE] mb-14">
             Nos offres
           </h2>
-          <p className="text-xl text-[#F9F7BE]/80">
+          <p className=" text-xl text-[#F9F7BE]/80">
             Trouvez votre expérience idéale et laissez-vous guider en toute sérénité
           </p>
         </div>
 
         {/* Desktop Grid (4 columns) */}
-        <div className="hidden lg:grid grid-cols-4 gap-x-8 gap-y-16 max-w-7xl mx-auto">
+        <div className="mt-10 hidden lg:grid grid-cols-4 gap-x-8 gap-y-16 max-w-7xl mx-auto">
           {offresData.map((offre) => (
             <OffreCard key={offre.id} offre={offre} />
           ))}

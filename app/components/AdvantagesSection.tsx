@@ -43,7 +43,7 @@ export default function AdvantagesSection() {
   }, []);
 
   return (
-    <section className="pt-40 pb-20 bg-[#1a1a1a] relative overflow-hidden min-h-screen">
+    <section className="pt-40 pb-60  bg-[#1a1a1a] relative overflow-hidden min-h-screen">
       <div className="container mx-auto px-4 relative">
         {/* Content */}
         <div className="relative" style={{ zIndex: 1 }}>
