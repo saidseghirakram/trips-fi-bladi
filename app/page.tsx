@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import AdvantagesSection from "./components/AdvantagesSection";
+import OffresSection from "./components/OffresSection";
 
 export default function Home() {
   return (
@@ -76,6 +77,9 @@ export default function Home() {
 
       {/* Advantages Section */}
       <AdvantagesSection />
+
+      {/* Offres Section */}
+      <OffresSection />
     </>
   );
 }
