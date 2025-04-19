@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="space-y-4">
               <h3 className="text-2xl font-medium text-[#F9F7BE]">TRIPS FI BLADI</h3>
               <p className="text-sm text-[#F9F7BE]/70 max-w-md">
-                Explorez l'Algérie à travers un écosystème de voyages durables, authentiques et respectueux de l'environnement
+                Explorez l&apos;Algérie à travers un écosystème de voyages durables, authentiques et respectueux de l&apos;environnement
               </p>
               <div className="flex gap-4">
                 <Link href="#" className="text-[#F9F7BE] hover:text-[#F9F7BE]/80">
@@ -57,7 +57,7 @@ const Footer = () => {
           <div className="container mx-auto px-8 py-4 flex justify-between items-center text-sm text-[#F9F7BE]/70">
             <p>©TRIPS_FI_BLADI. Tous droits réservés.</p>
             <div className="flex gap-4">
-              <Link href="#" className="hover:text-[#F9F7BE]">Conditions d'utilisation</Link>
+              <Link href="#" className="hover:text-[#F9F7BE]">Conditions d&apos;utilisation</Link>
               <Link href="#" className="hover:text-[#F9F7BE]">politique de confidentialité</Link>
             </div>
           </div>
@@ -70,7 +70,7 @@ const Footer = () => {
         <div className="space-y-4">
           <h3 className="text-xl font-medium text-[#F9F7BE]">TRIPS FI BLADI</h3>
           <p className="text-sm text-[#F9F7BE]/70">
-            Explorez l'Algérie à travers un écosystème de voyages durables, authentiques et respectueux de l'environnement
+            Explorez l&apos;Algérie à travers un écosystème de voyages durables, authentiques et respectueux de l&apos;environnement
           </p>
           <div className="flex gap-4">
             <Link href="#" className="text-[#F9F7BE] hover:text-[#F9F7BE]/80">
@@ -116,7 +116,7 @@ const Footer = () => {
         <div className="pt-6 border-t border-[#F9F7BE]/10 space-y-4">
           <p className="text-sm text-[#F9F7BE]/70">©TRIPS_FI_BLADI. Tous droits réservés.</p>
           <div className="flex flex-col gap-2 text-sm text-[#F9F7BE]/70">
-            <Link href="#" className="hover:text-[#F9F7BE]">Conditions d'utilisation</Link>
+            <Link href="#" className="hover:text-[#F9F7BE]">Conditions d&apos;utilisation</Link>
             <Link href="#" className="hover:text-[#F9F7BE]">politique de confidentialité</Link>
           </div>
         </div>
