@@ -4,6 +4,7 @@ import AdvantagesSection from "./components/AdvantagesSection";
 import TestimonialsSection from "./components/TestimonialsSection";
 import OffresSection from "./components/OffresSection";
 import AutreServices from "./components/AutreServices";
+import ContactSection from "./components/ContactSection";
 
 export default function Home() {
   return (
@@ -87,6 +88,13 @@ export default function Home() {
 
       {/* Autre Services Section */}
       <AutreServices />
+
+      {/* Contact Section */}
+      <ContactSection />
+
+      {/* Spacer Section */}
+      <section className="w-full h-[400px] bg-[#222]" />
+
     </>
   );
 }

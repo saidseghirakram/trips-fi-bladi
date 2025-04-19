@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const AutreServices = () => {
   return (
-    <section className="py-16 bg-[#1C1C1C]">
+    <section className="py-16 bg-[#1C1C1C] pb-30">
       <div className="container mx-auto px-4 max-w-[1400px]">
         <h2 className="text-5xl font-light text-[#F9F7BE] text-center mb-4">Autre services</h2>
         <p className="text-center mb-16 max-w-[902px] mx-auto text-[#F9F7BE]/70">
