@@ -5,6 +5,7 @@ import TestimonialsSection from "./components/TestimonialsSection";
 import OffresSection from "./components/OffresSection";
 import AutreServices from "./components/AutreServices";
 import ContactSection from "./components/ContactSection";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -93,8 +94,10 @@ export default function Home() {
       <ContactSection />
 
       {/* Spacer Section */}
-      <section className="w-full h-[400px] bg-[#222]" />
+      <section className="w-full h-[250px] md:h-[150px] bg-[#222]" />
 
+      {/* Footer */}
+      <Footer />
     </>
   );
 }
