@@ -73,7 +73,7 @@ export default function Home() {
 
         {/* "Qui sommes nous" link */}
         <div className="absolute bottom-4 sm:bottom-6 md:bottom-8 right-4 sm:right-6 md:right-8">
-          <Link href="#" className="text-white hover:text-gray-200 text-sm sm:text-base md:text-lg">
+          <Link href="/who_are_we" className="text-white hover:text-gray-200 text-sm sm:text-base md:text-lg">
             Qui sommes nous
           </Link>
     </div>
