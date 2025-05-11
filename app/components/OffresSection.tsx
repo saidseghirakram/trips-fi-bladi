@@ -3,6 +3,12 @@
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
+interface OffresSectionProps {
+  backgroundColor: string;
+  title?: string;
+  subtitle?: string;
+}
+
 const offresData = [
   {
     id: 1,
@@ -30,7 +36,11 @@ const offresData = [
   }
 ];
 
-export default function OffresSection() {
+export default function OffresSection({ 
+  backgroundColor = "#1a1a1a",
+  title = "Nos offres",
+  subtitle = "Trouvez votre expérience idéale et laissez-vous guider en toute sérénité"
+}: OffresSectionProps) {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   // Auto-slide for mobile
@@ -43,14 +53,14 @@ export default function OffresSection() {
   }, []);
 
   return (
-    <section className="py-40 bg-[#1a1a1a]">
+    <section className={`py-40`} style={{ backgroundColor }}>
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className=" text-5xl font-medium text-[#F9F7BE] mb-14">
-            Nos offres
+          <h2 className="text-5xl font-medium text-[#F9F7BE] mb-14">
+            {title}
           </h2>
-          <p className=" text-xl text-[#F9F7BE]/80">
-            Trouvez votre expérience idéale et laissez-vous guider en toute sérénité
+          <p className="text-xl text-[#F9F7BE]/80">
+            {subtitle}
           </p>
         </div>
 
