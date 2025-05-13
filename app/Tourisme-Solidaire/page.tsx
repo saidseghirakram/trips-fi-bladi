@@ -94,6 +94,63 @@ function page() {
             </div>
           </div>
         </div>
+
+        {/* Donation Cards Section */}
+        <div className="container mx-auto px-4 sm:px-6 md:px-8 pb-24 my-20">
+          <div className="grid grid-cols-1 max-w-5xl mx-auto gap-18">
+            {/* First Card - Aider les Sans-Abri */}
+            <div className=" rounded-lg overflow-hidden min-h-[300px]">
+              <div className="flex flex-col md:flex-row h-full">
+                <div className="md:w-1/2 h-full">
+                  <Image
+                    src="/images/tourismeSolidaire/homless_pic.png"
+                    alt="Sans-abri"
+                    width={300}
+                    height={300}
+                    className="w-[400px] h-[200px] md:h-full object-cover"
+                  />
+                </div>
+                <div className="md:w-1/2 p-6 flex flex-col justify-around gap-4 h-full">
+                  <div>
+                    <h3 className="text-2xl font-bold text-[#F9F7BE] mb-3">Aider les Sans-Abri</h3>
+                    <p className="text-[#F9F7BE]/90 text-sm leading-relaxed">
+                      Offrons un toit, un repas, et un peu d&apos;espoir à ceux qui en ont le plus besoin. Ensemble, changeons des vies.
+                    </p>
+                  </div>
+                  <button className="w-full bg-[#98BB63] text-[#2B5E2E] font-semibold py-2 rounded-md hover:bg-[#98BB63]/90 transition-colors">
+                    PARTICIPER
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            {/* Second Card - Faites un Don */}
+            <div className=" rounded-lg overflow-hidden min-h-[300px]">
+              <div className="flex flex-col md:flex-row h-full">
+                <div className="md:w-1/2 h-full">
+                  <Image
+                    src="/images/tourismeSolidaire/toys_image.png"
+                    alt="Boîte de dons"
+                    width={300}
+                    height={300}
+                    className="w-[400px] h-[200px] md:h-full object-cover"
+                  />
+                </div>
+                <div className="md:w-1/2 p-6 flex flex-col justify-around gap-4 h-full">
+                  <div>
+                    <h3 className="text-2xl font-bold text-[#F9F7BE] mb-3">Faites un Don, Changez une Vie</h3>
+                    <p className="text-[#F9F7BE]/90 text-sm leading-relaxed">
+                      Chaque geste compte. Votre donation peut offrir un avenir meilleur à ceux qui en ont besoin. Soyons solidaires !
+                    </p>
+                  </div>
+                  <button className="w-full bg-[#98BB63] text-[#2B5E2E] font-semibold py-2 rounded-md hover:bg-[#98BB63]/90 transition-colors">
+                    PARTICIPER
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
