@@ -66,10 +66,8 @@ const HistoriqueCulturel = () => {
           </div>
         </div>
 
-     
-      </div>
-         {/* Heritage Section */}
-         <div className="bg-[#222222] mt-20 py-16 w-full">
+        {/* Heritage Section */}
+        <div className="bg-[#222222] mt-20 py-16 w-full">
           <div className="container mx-auto px-4">
             <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
               {/* Text Content */}
@@ -100,6 +98,59 @@ const HistoriqueCulturel = () => {
             </div>
           </div>
         </div>
+
+        {/* Lieux qui racontent Section */}
+        <div className="bg-[#222222] mt-20 py-16 w-full">
+          <div className="container mx-auto px-4">
+            {/* Section Title */}
+            <h2 className="text-3xl sm:text-4xl font-serif text-[#F9F7BE] mb-12 text-center">
+              Lieux qui racontent
+            </h2>
+
+            {/* Timgad Card */}
+            <div className="bg-[#70B050] rounded-lg p-6 sm:p-8">
+              <div className="flex flex-col lg:flex-row gap-8 items-center">
+                {/* Image */}
+                <div className="w-full lg:w-5/12">
+                  <div className="relative aspect-[4/3] w-full rounded-lg overflow-hidden">
+                    <Image
+                      src="/images/historique/artial.png"
+                      alt="Timgad cité romaine"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                </div>
+
+                {/* Content */}
+                <div className="w-full lg:w-7/12">
+                  <h3 className="text-2xl sm:text-3xl font-bold text-[#222222] mb-4 text-center lg:text-left">
+                    Timgad, cité romaine en plein cœur des Aurès
+                  </h3>
+                  <p className="text-sm sm:text-base text-[#222222] leading-relaxed text-center lg:text-left">
+                    Nichée aux portes des Aurès, la cité antique de Timgad est l&apos;un des joyaux 
+                    archéologiques les plus fascinants d&apos;Algérie. Fondée par l&apos;empereur romain 
+                    Trajan en l&apos;an 100 après J.-C., cette ville romaine a été conçue selon un plan 
+                    parfaitement orthogonal, véritable chef-d&apos;œuvre d&apos;urbanisme antique.
+                  </p>
+                  <p className="text-sm sm:text-base text-[#222222] leading-relaxed mt-4 text-center lg:text-left">
+                    Timgad impressionne par son état de conservation exceptionnel : ses rues 
+                    pavées, ses thermes, son forum, sa bibliothèque et surtout son majestueux 
+                    théâtre, qui pouvait accueillir jusqu&apos;à 3 500 spectateurs, plongent les 
+                    visiteurs dans le quotidien d&apos;une ville florissante de l&apos;Empire romain.
+                  </p>
+                  <p className="text-sm sm:text-base text-[#222222] leading-relaxed mt-4 text-center lg:text-left">
+                    Classée au patrimoine mondial de l&apos;UNESCO depuis 1982, Timgad est bien 
+                    plus qu&apos;un site archéologique. C&apos;est une invitation à remonter le temps, à 
+                    découvrir l&apos;ingéniosité romaine, et à s&apos;émerveiller devant un passé qui 
+                    continue de vivre sous le ciel algérien.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
