@@ -1,9 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
+import Footer from '../components/Footer';
 
 const HistoriqueCulturel = () => {
   return (
-    <div className="min-h-[140vh] bg-[#222222] pt-18 py-10  sm:px-6 ">
+    <div className="min-h-[140vh] bg-[#222222] pt-18   sm:px-6 ">
       <div className="max-w-8xl mx-auto">
         {/* Hero Section */}
         <div className="bg-[#70B050] rounded-lg shadow-lg p-6 pb-20 sm:pb-4 min-h-[580px] relative">
@@ -150,6 +151,27 @@ const HistoriqueCulturel = () => {
             </div>
           </div>
         </div>
+
+        {/* Call to Action Section */}
+        <div className="bg-[#222222] py-25 w-full">
+          <div className="container mx-auto ">
+            <div className="flex flex-col items-center justify-center text-center ">
+              <h2 className="text-xl sm:text-2xl lg:text-4xl xl:text-5xl font-sans text-[#F9F7BE] mb-8 max-w-6xl">
+                Prêt à faire vibrer l&apos;Histoire et révéler les cultures
+              </h2>
+              <button 
+                className="bg-[#70B050] text-[#F9F7BE] px-8 py-3 rounded-lg 
+                          text-lg font-semibold hover:bg-[#2B5E2E] 
+                          transition-colors duration-300 
+                          transform hover:scale-105 cursor-pointer"
+              >
+                Join Us
+              </button>
+            </div>
+          </div>
+        </div>
+        {/* footer */}
+        <Footer />
       </div>
     </div>
   );
