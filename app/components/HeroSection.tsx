@@ -38,6 +38,7 @@ export default function HeroSection({
       className={`relative ${height} sm:${height} ${!backgroundImage && '[box-shadow:0px_4px_4px_0px_rgba(0,0,0,0.25)]'}`}
       style={{ background: !backgroundImage ? gradientStyle : undefined }}
     >
+
       {backgroundImage && (
         <div className="absolute inset-0 -z-10">
           <Image
@@ -53,20 +54,10 @@ export default function HeroSection({
         </div>
       )}
 
-      {/* Navbar */}
-      <nav className="flex justify-between items-center p-4 sm:p-6 md:p-8">
-        <div className="text-black text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">
-          logo
-        </div>
-        <button className="group">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="#F9F7BE" className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 group-hover:stroke-white transition-colors">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-          </svg>
-        </button>
-      </nav>
+     
 
       {/* Content */}
-      <div className={`container mx-auto px-4 ${backgroundImage ? 'absolute inset-0 flex items-center justify-center' : 'pt-8 sm:pt-12 md:pt-16'}`}>
+      <div className={`container mx-auto px-4 ${backgroundImage ? 'absolute inset-0 flex items-center justify-center' : 'pt-20 sm:pt-24 md:pt-28'}`}>
         <div className={`${backgroundImage ? 'flex flex-col items-center justify-center text-center text-white px-4' : ''}`}>
           <h1 className={`${backgroundImage ? 'text-4xl sm:text-5xl md:text-6xl' : 'text-3xl sm:text-4xl md:text-5xl'} font-bold text-center text-[#F9F7BE] mb-4 sm:mb-6`}>
             {title}
