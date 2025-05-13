@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center p-4 sm:p-6 md:p-4  absolute top-0 left-0 right-0 w-full z-50 bg-transparent">
+    <nav className="flex justify-between items-center p-4 sm:p-6 md:p-4  absolute top-0 left-0 right-0 w-full z-50 bg-transparent cursor-pointer">
       <div className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">
         logo
       </div>
