@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Footer from '../components/Footer'
 
 function page() {
   return (
@@ -151,7 +152,28 @@ function page() {
             </div>
           </div>
         </div>
+
+        {/* Ready to Change Lives Section */}
+        <div className="bg-[#222222] py-20">
+          <div className="container mx-auto px-4 text-center">
+            <h2 className="text-4xl md:text-5xl font-bold text-[#F9F7BE] mb-4">
+              Prêt à changer des vies ?
+            </h2>
+            <p className="text-[#F9F7BE]/80 text-lg mb-8">
+              Rejoignez-nous et changeons les choses
+            </p>
+            <button className="bg-[#98BB63] text-[#2B5E2E] font-semibold px-8 py-2 rounded-md hover:bg-[#98BB63]/90 transition-colors">
+              JOIN US
+            </button>
+          </div>
+        </div>
+
+
+
+
       </div>
+
+      <Footer />
     </div>
   )
 }
