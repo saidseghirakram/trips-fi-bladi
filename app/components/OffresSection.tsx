@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 
 interface OffresSectionProps {
   backgroundColor: string;
@@ -105,8 +106,15 @@ export default function OffresSection({
 
 // Card Component
 function OffreCard({ offre }: { offre: typeof offresData[0] }) {
+  const router = useRouter();
+
+  const handleClick = () => {
+    const route = offre.title.toLowerCase().replace(/ & /g, '_').replace(/ /g, '_');
+    router.push(`/${route}`);
+  };
+
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col" onClick={handleClick}>
       {/* Card with Image */}
       <div className="group relative overflow-hidden rounded-lg cursor-pointer h-[400px] shadow-lg">
         {/* Image Container */}
